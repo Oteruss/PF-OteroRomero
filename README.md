@@ -1,5 +1,3 @@
-# PreEntrega3-OteroRomero
-
 Portafolio de Diseño - DCG Oscar Otero
 
 ¡Bienvenido a mi portafolio! Este repositorio contiene el código de mi página web de portafolio, donde presento mis proyectos de diseño gráfico, UX/UI y otros trabajos creativos.
@@ -29,6 +27,3 @@ Las contribuciones son bienvenidas. Si tienes alguna sugerencia o mejora, por fa
 Contacto
 Oscar Otero Romero
 oscaroterus@gmail.com
-# PFOteroRomero
-# PFOteroRomero
-# PFOteroRomero
