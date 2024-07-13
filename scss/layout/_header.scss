@@ -55,6 +55,11 @@ header {
       text-align: left;
     }
   }
+
+  strong {
+    color: $primary-color;
+  }
+  
   
   // Utility Classes
   .d-flex {

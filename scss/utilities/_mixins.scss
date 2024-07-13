@@ -1,0 +1,87 @@
+// Mixins y funciones
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == sm {
+      @media (min-width: 576px) { @content; }
+    } @else if $breakpoint == md {
+      @media (min-width: 768px) { @content; }
+    } @else if $breakpoint == lg {
+      @media (min-width: 992px) { @content; }
+    } @else if $breakpoint == xl {
+      @media (min-width: 1200px) { @content; }
+    } @else if $breakpoint == xxl {
+      @media (min-width: 1400px) { @content; }
+    }
+  }
+  
+  @mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @mixin font-size-responsive($size) {
+    font-size: $size;
+  
+    @include respond-to(sm) {
+      font-size: $size * 1.1;
+    }
+  
+    @include respond-to(md) {
+      font-size: $size * 1.2;
+    }
+  
+    @include respond-to(lg) {
+      font-size: $size * 1.3;
+    }
+  
+    @include respond-to(xl) {
+      font-size: $size * 1.4;
+    }
+  }
+  
+  // Bucle para márgenes
+  
+  @mixin generate-margins($property) {
+    @for $i from 1 through 5 {
+      .#{$property}-#{$i} {
+        #{$property}: $i * 0.25rem !important;
+      }
+      
+      @include respond-to(sm) {
+        .#{$property}-sm-#{$i} {
+          #{$property}: $i * 0.25rem !important;
+        }
+      }
+      
+      @include respond-to(md) {
+        .#{$property}-md-#{$i} {
+          #{$property}: $i * 0.25rem !important;
+        }
+      }
+      
+      @include respond-to(lg) {
+        .#{$property}-lg-#{$i} {
+          #{$property}: $i * 0.25rem !important;
+        }
+      }
+      
+      @include respond-to(xl) {
+        .#{$property}-xl-#{$i} {
+          #{$property}: $i * 0.25rem !important;
+        }
+      }
+      
+      @include respond-to(xxl) {
+        .#{$property}-xxl-#{$i} {
+          #{$property}: $i * 0.25rem !important;
+        }
+      }
+    }
+  }
+  
+  @include generate-margins('m'); // márgenes
+  @include generate-margins('mt'); // margen superior
+  @include generate-margins('mb'); // margen inferior
+  @include generate-margins('ml'); // margen izquierdo
+  @include generate-margins('mr'); // margen derecho
