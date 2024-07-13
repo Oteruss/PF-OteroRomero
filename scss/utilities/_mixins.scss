@@ -20,25 +20,25 @@
     justify-content: center;
   }
   
-  @mixin font-size-responsive($size) {
-    font-size: $size;
+  // @mixin font-size-responsive($size) {
+  //   font-size: $size;
   
-    @include respond-to(sm) {
-      font-size: $size * 1.1;
-    }
+  //   @include respond-to(sm) {
+  //     font-size: $size * 1.1;
+  //   }
   
-    @include respond-to(md) {
-      font-size: $size * 1.2;
-    }
+  //   @include respond-to(md) {
+  //     font-size: $size * 1.2;
+  //   }
   
-    @include respond-to(lg) {
-      font-size: $size * 1.3;
-    }
+  //   @include respond-to(lg) {
+  //     font-size: $size * 1.3;
+  //   }
   
-    @include respond-to(xl) {
-      font-size: $size * 1.4;
-    }
-  }
+  //   @include respond-to(xl) {
+  //     font-size: $size * 1.4;
+  //   }
+  // }
   
   // Bucle para márgenes
   
