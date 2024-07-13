@@ -1,5 +1,6 @@
 # Ignorar archivos HTML
 **/._index.html
+._index.html
 **/._portafolio.html 
 */._portafolio.html 
 
