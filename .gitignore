@@ -31,3 +31,7 @@
 **/._contactanos.jpg
 **/._digitaldesigner.jpg
 **/._edificio.jpg
+
+# Ignorar xml 
+._sitemap.xml
+**/._sitemap.xml
