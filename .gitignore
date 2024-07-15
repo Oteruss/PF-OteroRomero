@@ -7,10 +7,14 @@
 # Ignorar archivos y directorios del sistema macOS
 **/.DS_Store
 **/._.DS_Store
+.DS_Store
+._.DS_Store
 
 # Ignorar archivos de fuentes 
 **/._Poppins-Bold.ttf
 **/._Poppins-Regular.ttf
+._Poppins-Bold.ttf
+._Poppins-Regular.ttf
 
 # Ignorar archivos SVG 
 **/._adidas.svg
@@ -23,14 +27,38 @@
 **/._tesla.svg
 **/._walmart.svg
 **/._warner.svg
+._adidas.svg
+._amazon.svg
+._citi.svg
+._facebook.svg
+._google.svg
+._logo.svg
+._mercedes.svg
+._tesla.svg
+._walmart.svg
+._warner.svg
 
-# Ignorar archivos JPG 
-**/._book.jpg
-**/._branding.jpg
-**/._conferencia.jpg
-**/._contactanos.jpg
-**/._digitaldesigner.jpg
-**/._edificio.jpg
+# Ignorar archivos webp 
+**/._branding.webp
+**/._cdmx.webp
+**/._estudio.webp
+**/._guadalajara.webp
+**/._html.webp
+**/._ilustracion.webp
+**/._logo.webp
+**/._pantone.webp
+**/._testimonios.webp
+**/._ux.webp
+._branding.webp
+._cdmx.webp
+._estudio.webp
+._guadalajara.webp
+._html.webp
+._ilustracion.webp
+._logo.webp
+._pantone.webp
+._testimonios.webp
+._ux.webp
 
 # Ignorar xml 
 ._sitemap.xml
